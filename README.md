@@ -1,4 +1,4 @@
-![Overview](.\resources\Overview.jpg)
+![Overview](./resources/Overview.jpg)
 
 ## The setup
 
@@ -75,12 +75,12 @@ Programmatie (minimaal vereist om 60% te behalen)
 1. Maak gebruik van de ‘FB_KL6581’ functieblok voor de communicatie met de KL6581. Koppel de juiste variabelen met de KL6581. Scan vervolgens alle EnOcean toestellen en toon hun EnOcean IDs in de visualisatie. (10%)
 2. Lees de relatieve vochtigheid en de temperatuur in en toon deze samen met hun eenheden in de visualisatie. (15%)
 3. Lees de druktoetsen in en stuur één van de aangesloten LED's op de EL2008 terminal aan doormiddel van de FB_Light uit de TC2_BA_Basic library. Gebruik hiervoor de druktoets linksboven als toggle, de druktoets rechtsboven als alles aan en de druktoets rechtsonder als alles uit. (20%)
-4. Leer de overige druktoets (linksonder) in op de universele dimmer FUD61NPN en toon aan de docent. (15%)
+4. Leer de overige druktoets (linksonder) in op de universele dimmer FUD61NPN. (15%)
 
 Bijkomende programmatie (Percentage telt enkel indien minimale programmatie bereikt is).
 
-7.	Toon in de visualisatie de temperatuur waarden van de Eltako FFT65B-wg sensor op een grafiek. (15%)
-8.	Stuur een EnOcean telegram in formaat van een druktoets naar de FUD61NPN universele dimactor om deze naar verschillende dimwaarden of een speciale scene 'kinderkamer' te sturen. (25%)
+5.	Toon in de visualisatie de temperatuur waarden van de Eltako FFT65B-wg sensor op een grafiek. (15%)
+6.	Stuur vanuit de PLC een EnOcean telegram in formaat van een druktoets naar de FUD61NPN universele dimactor om deze naar verschillende dimwaarden of een speciale scene 'kinderkamer' te sturen. (25%)
 
 ## Questions
 
