@@ -25,11 +25,11 @@ EnOcean uses a unique data link layer protocol called "EnOcean Radio Protocol" (
 
 ## Preperations
 
-- Lees de [documentatie van de EnOcean druktoetsen](https://www.eltako.com/nl/product/professional-smart-home-nl/drukknop-en-schakelaarreeksen-enkele-en-dubbele-wippen-handzenders-en-afstandsbedieningen/f4t65-wg/)
+- Lees de [documentatie van de EnOcean druktoetsen](resources\F4T65_30065705-1.pdf)
 
-- Lees de [documentatie van de EnOcean temperatuur en luchtvochtigheid sensor](https://www.eltako.com/nl/product/professional-smart-home-nl/drukknop-en-schakelaarreeksen-enkele-en-dubbele-wippen-handzenders-en-afstandsbedieningen/fft65b-wg/)
+- Lees de [documentatie van de EnOcean temperatuur en luchtvochtigheid sensor](resources\FFT65B_30065475-2.pdf)
 
-- Lees de [documentatie van de EnOcean universele dimactor](https://www.eltako.com/nl/product/professional-smart-home-nl/radioactuators-voor-gedecentraliseerde-radio-installatie-in-gebouwen/fud61npn-230v/)
+- Lees de [documentatie van de EnOcean universele dimactor](https://www.eltako.com/nl/catalog/products/1410/fud61npn-230v)
 
   Raadpleeg de handleiding van de Beckhoff [KL6581 Master and KL6583 Transceiver](https://download.beckhoff.com/download/document/io/bus-terminals/kl6581_kl6583en.pdf). Lees zeker de pagina’s:
 
@@ -50,7 +50,6 @@ EnOcean uses a unique data link layer protocol called "EnOcean Radio Protocol" (
   - M-Bus => Bulletin
   - Programming => POUs => KL6581 (zo goed als ieder item onder KL6581 POUs zal je kunnen gebruiken)
   - Programming => DUTs => KL6581 =>  Structures => KL6581_Input, KL6581_Output, STR_EnOceanSwitch en STR_KL6581
-  
   - Programming => Integration into TwinCAT => KL6581 with CX5120 (as example)
 
 ## Goals
